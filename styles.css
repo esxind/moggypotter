@@ -1,0 +1,229 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.moggy-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.accordion {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 1rem;
+    color: #ffffff00;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.accordion-content img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 0.5rem;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.tokenomics-info {
+    display: flex;
+    align-items: center;
+}
+.tokenomics-text {
+    font-size: 50px;
+}
+
+/* Vous pouvez ajouter d'autres styles selon vos préférences */
+
+.adventures h2 {
+    text-align: center;
+    margin-top: 0; /* Supprime la marge supérieure */
+    margin-bottom: 1rem; /* Ajoute une marge inférieure pour l'espacement */
+}
+
+.accordion-content {
+    display: none; /* Cacher le contenu par défaut */
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.tokenomics-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.accordion-button:hover {
+    background-color: #555;
+}
+.tokenomics h2 {
+        text-align: center;
+        margin: 0; /* Supprime toute marge pour un alignement précis */
+        padding: 1rem; /* Ajoutez un padding pour l'espacement autour du texte */
+    }
+
+    .tokenomics-tabs {
+        overflow: hidden;
+    }
+    
+    .tokenomics-tab {
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+    
+
+    
+    .tokenomics-content {
+        display: none;
+        padding: 20px;
+    }
+    
+    .social {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .social h2 {
+        font-size: 1.5rem;
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .social h2:hover {
+        background-color: #555;
+    }
+    
+    .accordion-content {
+        display: none;
+        padding: 1rem;
+        background-color: #c9c4c4;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .social a {
+        display: block;
+        margin-bottom: 1rem;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .social a:hover {
+        text-decoration: underline;
+    }
+    .social h2 {
+        font-size: 1.3rem; /* Modifiez la taille de la police selon vos préférences */
+    }
+    .social li:nth-child(1),
+    .social li:nth-child(2) {
+        font-weight: bold;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('ecran.png'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+        background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de la fenêtre */
+        background-position: center; /* Centre l'image horizontalement et verticalement */
+    }
+
+    .adventures .accordion-content {
+        background-color: transparent;
+    }
+    .introduction p {
+        font-size: 1.5rem; /* Choisissez la taille de police souhaitée */
+        font-weight: bold; /* Met le texte en gras */
+        color: #ffffff; /* Couleur du texte en blanc */
+    }
+    
+    

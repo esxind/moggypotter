@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moggy Potter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Moggy Potter</h1>
+    </header>
+    <main>
+
+    
+        <section class="introduction">
+            <img src="potter.png" alt="Moggy Potter" class="moggy-image">
+            <p>Welcome to the magical world of Moggy Potter, the coolest wizard with the sharpest vision!</p>
+        </section>
+        <section class="adventures">
+            <h2 class="accordion-button">Adventures</h2>
+            <div class="accordion-content">
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Philosopher's Stone</button>
+                    <div class="accordion-content">
+                        <img src="1.png" alt    ="Philosopher's Stone">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Chamber of Secrets</button>
+                    <div class="accordion-content">
+                        <img src="2.png" alt="Chamber of Secrets">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Prisoner of Azkaban</button>
+                    <div class="accordion-content">
+                        <img src="3.png" alt="Prisoner of Azkaban">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Goblet of Fire</button>
+                    <div class="accordion-content">
+                        <img src="4.png" alt="Goblet of Fire">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Order of the Phoenix</button>
+                    <div class="accordion-content">
+                        <img src="5.png" alt="Order of the Phoenix">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Half-Blood Prince</button>
+                    <div class="accordion-content">
+                        <img src="6.png" alt="Half-Blood Prince">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Moggy Potter and the Deathly Hallows</button>
+                    <div class="accordion-content">
+                        <img src="7.png" alt="Deathly Hallows">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tokenomics">
+            <h2 class="accordion-button">Tokenomics</h2>
+            <div class="accordion-content">
+                <div class="tokenomics-tabs">
+                    <button class="tokenomics-tab" onclick="openTab(event, 'supply')">Supply</button>
+                    <button class="tokenomics-tab" onclick="openTab(event, 'lp_burned')">LP Burned</button>
+                    <button class="tokenomics-tab" onclick="openTab(event, 'tax')">Tax</button>
+                </div>
+                <div id="supply" class="tokenomics-content">
+                    <p>Supply : <strong>1B</strong></p>
+                </div>
+                <div id="lp_burned" class="tokenomics-content">
+                    <p>LP burned : <strong>100%</strong></p>
+                </div>
+                <div id="tax" class="tokenomics-content">
+                    <p>Tax : <strong>0%</strong></p>
+                </div>
+            </div>
+        </section>
+        <section class="social">
+            <h2 class="accordion-button">Social</h2>
+            <div class="accordion-content">
+                <ul>
+                    <li><a href="https://x.com/MoggyPotter_">Twitter</a></li>
+                    <li><a href="https://t.me/+6no_GXkc0MUwMTI8">Telegram</a></li>
+                </ul>
+            </div>
+        </section>
+                
+    </main>
+    <audio id="background-music" autoplay loop>
+        <source src="musique.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
